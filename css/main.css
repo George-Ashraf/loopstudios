@@ -220,7 +220,7 @@ footer .copy .row .copyright p{
         width: 100%;
         height: auto;
         padding-bottom: 250px;
-        background-image: url(../assets/images/desktop/image-hero.jpg);
+        background-image: url(../assets/images/mobile/image-hero.jpg);
         background-size: 100% 100%;
         overflow: hidden;
     }
