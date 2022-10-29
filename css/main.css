@@ -1,0 +1,350 @@
+.navbar{
+position: fixed;
+top:0;
+z-index: 99999999;
+width: 100%;
+background-color: rgba(0, 0, 0, 0.137);
+}
+.navbar .navbar-brand{
+    margin-left: 70px;
+    color:white;
+    font-weight: bold;
+}
+.navbar .navbar-nav {
+margin-right: 90px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+color: white;
+margin-left: 15px;
+border-bottom: solid 1px transparent;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    border-bottom: solid 1px white;
+}
+.home{
+    width: 100%;
+    height: auto;
+    padding-bottom: 250px;
+    background-image: url(../assets/images/desktop/image-hero.jpg);
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.home .exper{
+   margin-top: 200px;
+   margin-left: 70px;
+    height: auto;
+    border:1px white solid;
+}
+.home .exper h1{
+    color:white;
+    font-weight: 100;
+    font-size: 75px;
+    margin-left: 20px;
+}
+.careers{
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+}
+.careers .row{
+    justify-content: center;
+    
+}
+.careers .img {
+    height: auto;
+    margin-top: 100px;
+}
+.careers .img img{
+    width: 100%;
+    height: 100%;
+}
+.careers .text{
+    margin-top: 200px;
+    position: relative;
+    right:120px;
+    height: auto;
+    padding-bottom: 10px;
+    background-color:white;
+
+}
+.careers .text h1{
+margin: 30px 40px;
+}
+.careers .text p{
+    margin: 0 40px;
+}
+.event{
+    width: 100%;
+    height: auto;
+}
+.event .head{
+    height: auto;
+    padding-bottom: 40px;
+    margin: auto;
+}
+.event .head .row{
+    justify-content: space-between;
+}
+.event .head .row h1{
+    font-weight: 100;
+}
+.event .head .row .desktob-btn{
+    width: 130px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.event .head .row .desktob-btn:hover{
+background-color: transparent;
+color:black;
+}
+.event .creations{
+    margin: auto;
+    padding:0px 0px 120px 0px;
+    height: auto;
+}
+.event .creations .row{
+    justify-content: space-around;
+}
+.event .creations .img{
+    height: 350px;
+    padding: 0;
+    margin:10px 30px ;
+
+}
+.event .creations .img img{
+    width: 100%;
+    height: 100%;
+}
+.event .creations .img .text{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 350px;
+    background-color: transparent;
+    overflow: hidden;
+}
+.event .creations .img .text:hover{
+    background-color: rgba(255, 255, 255, 0.581);
+    
+}
+.event .creations .img .text:hover p{
+    color: black;
+}
+.event .creations .img .text p{
+    color: white;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top:250px ;
+}
+.event .creations .mob-btn{
+    display: none;
+    width: 130px;
+    height: 40px;
+    background-color: black;
+    color: white;
+
+}
+footer{
+width: 100%;
+height: auto;
+padding-bottom: 20px;
+background-color: black;
+}
+footer .support{
+    height: auto;
+    margin: auto;
+}
+footer .support .row{
+    justify-content: space-between;
+    overflow: hidden;
+}
+footer .support .row p{
+    font-weight: bold;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
+footer .support .row .icon{
+    height: 100px;
+}
+footer .support .row .icon i{
+    font-size: 30px;
+    margin-top: 30px;
+margin-left: 5px;
+    color: white;
+    border-bottom: 2px solid transparent;
+}
+footer .support .row .icon i:hover{
+    border-bottom: 2px solid white;
+}
+footer .copy{
+    height: auto;
+    
+    margin: auto;
+
+}
+footer .copy .row{
+    justify-content: space-between;
+}
+footer .copy .row .footer{
+    height: auto;
+
+}
+footer .copy .row .footer ul li a{
+    color: white;
+    border-bottom: transparent 1px solid;
+}
+footer .copy .row .footer ul li a:hover{
+
+    border-bottom: white 1px solid;
+}
+footer .copy .row .copyright{
+    height: auto;
+    padding: 30px 0;
+}
+footer .copy .row .copyright p{
+    color: gray;
+}
+@media (max-width:780px) {
+    .navbar .navbar-brand{
+        margin-left: 0px;
+        color:white;
+        font-weight: bold;
+    }
+    .navbar-collapse{
+        background-color: rgba(255, 255, 255, 0.432);
+    }
+    
+    .home{
+        width: 100%;
+        height: auto;
+        padding-bottom: 250px;
+        background-image: url(../assets/images/desktop/image-hero.jpg);
+        background-size: 100% 100%;
+        overflow: hidden;
+    }
+    .home .exper{
+       margin-top: 200px;
+       margin-left: 0px;
+        height: auto;
+        border:1px white solid;
+    }
+    .home .exper h1{
+        color:white;
+        font-weight: 100;
+        font-size: 50px;
+        margin-left: 20px;
+    }
+    .careers{
+        width: 100%;
+        height: auto;
+        padding-bottom: 100px;
+    }
+    .careers .row{
+        justify-content: center;
+        
+    }
+    .careers .img {
+        height: 400px;
+        margin-top: 100px;
+    }
+    .careers .img img{
+        width: 100%;
+        height: 100%;
+    }
+    .careers .text{
+        margin-top: 50px;
+        position: relative;
+        right:0px;
+        height: auto;
+        padding-bottom: 10px;
+        background-color:white;
+    
+    }
+    .careers .text h1{
+    margin: 30px 20px;
+    }
+    .careers .text p{
+        margin: 0 40px;
+    }
+    .event{
+        width: 100%;
+        height: auto;
+    }
+    .event .head{
+        height: auto;
+        padding-bottom: 40px;
+        margin: auto;
+    }
+    .event .head .row{
+        justify-content: space-between;
+    }
+    .event .head .row h1{
+        font-weight: 100;
+    }
+    .event .head .row .desktob-btn{
+        width: 130px;
+        height: 40px;
+        display: none;
+        background-color: black;
+        color: white;
+    }
+    .event .head .row .desktob-btn:hover{
+    background-color: transparent;
+    color:black;
+    }
+    .event .creations{
+        margin: auto;
+        padding:0px 0px 120px 0px;
+        height: auto;
+    }
+    .event .creations .row{
+        justify-content: space-around;
+    }
+    .event .creations .img{
+        height: 350px;
+        padding: 0;
+        margin:10px 30px ;
+    
+    }
+    .event .creations .img img{
+        width: 100%;
+        height: 100%;
+    }
+    .event .creations .img .text{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        bottom: 350px;
+        background-color: transparent;
+        overflow: hidden;
+    }
+    .event .creations .img .text:hover{
+        background-color: rgba(255, 255, 255, 0.581);
+        
+    }
+    .event .creations .img .text:hover p{
+        color: black;
+    }
+    .event .creations .img .text p{
+        color: white;
+        font-size: 30px;
+        margin-left: 20px;
+        margin-top:250px ;
+    }
+    .event .creations .mob-btn{
+        display: block;
+        width: 130px;
+        height: 40px;
+        margin-top: 30px;
+        background-color: black;
+        color: white;
+    
+    }
+    .event .creations .mob-btn:hover{
+        background-color: transparent;
+        color:black;
+        }
+   
+}
